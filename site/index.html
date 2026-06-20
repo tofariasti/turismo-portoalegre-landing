@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Porto Alegre — Turismo | Capital Gaúcha · RS</title>
+  <meta name="description" content="Turismo em Porto Alegre: Orla do Guaíba, Mercado Público, Redenção e eventos. Agende seu roteiro pela capital gaúcha.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a href="#contato" class="skip-link">Ir para agendamento</a>
+
+  <a href="#contato" class="whatsapp-float" aria-label="Agendar visita a Porto Alegre no WhatsApp" id="whatsapp-float">
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+    <span class="whatsapp-float__ring" aria-hidden="true"></span>
+  </a>
+
+  <header class="header" id="header">
+    <div class="container">
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#home" class="logo">
+          <i class="fas fa-city" aria-hidden="true"></i>
+          <span>Destino <strong>POA</strong></span>
+        </a>
+        <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu" id="menu-toggle">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#atracoes" class="nav-link">Atrações</a></li>
+          <li><a href="#eventos" class="nav-link">Eventos</a></li>
+          <li><a href="#galeria" class="nav-link">Galeria</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contato" class="btn btn-primary nav-cta">Agendar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero__bg" style="background-image:url('https://images.unsplash.com/photo-1585208797982-958e9c4b1c0e?w=1920&auto=format&fit=crop&q=80')">
+        <div class="hero__overlay"></div>
+        <div class="hero__particles" id="particles" aria-hidden="true"></div>
+      </div>
+      <div class="container">
+        <div class="hero__grid">
+          <div class="hero__content">
+            <span class="hero-badge" data-aos="fade-down">
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+              Capital Gaúcha · RS
+            </span>
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+              Cultura, orla e <span class="highlight">capital cosmopolita</span>
+            </h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">Do Mercado Público à Redenção, Porto Alegre combina tradição gaúcha, arte contemporânea e vida noturna vibrante.</p>
+            <div class="hero-cta" data-aos="fade-up" data-aos-delay="300">
+              <a href="#contato" class="btn btn-primary btn-lg">
+                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                Agendar pelo WhatsApp
+              </a>
+              <a href="#atracoes" class="btn btn-outline btn-lg">Ver Atrações</a>
+            </div>
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
+              <div class="stat">
+                <span class="stat-number" data-count="70">0</span><span class="stat-suffix"> km</span>
+                <span class="stat-label">De orla no Guaíba</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number" data-count="608">0</span><span class="stat-suffix"></span>
+                <span class="stat-label">Praças e parques</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number" data-count="1869">0</span><span class="stat-suffix"></span>
+                <span class="stat-label">Ano do Mercado Público</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero__image" data-aos="fade-left" data-aos-delay="500">
+            <div class="hero__image-frame">
+              <img src="https://images.unsplash.com/photo-1585208797982-958e9c4b1c0e?w=900&auto=format&fit=crop&q=80" alt="Paisagem turística de Porto Alegre" loading="eager" width="900" height="600">
+              <div class="hero__float-card" data-aos="zoom-in" data-aos-delay="800">
+                <i class="fas fa-sun" aria-hidden="true"></i>
+                <div>
+                  <strong>Pôr do sol</strong>
+                  <span>Orla do Guaíba — um dos mais bonitos do Brasil</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt como-funciona" id="como-funciona">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Como funciona</span>
+          <h2 class="section-title">Planeje sua visita em 4 passos</h2>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card" data-aos="fade-up" data-aos-delay="100">
+            <span class="step-number">01</span>
+            <i class="fas fa-compass" aria-hidden="true"></i>
+            <h3>Escolha as atrações</h3>
+            <p>Explore pontos turísticos, eventos e experiências autênticas de Porto Alegre.</p>
+          </article>
+          <article class="step-card" data-aos="fade-up" data-aos-delay="200">
+            <span class="step-number">02</span>
+            <i class="fas fa-calendar-check" aria-hidden="true"></i>
+            <h3>Preencha o formulário</h3>
+            <p>Informe data, número de pessoas e preferências de roteiro.</p>
+          </article>
+          <article class="step-card" data-aos="fade-up" data-aos-delay="300">
+            <span class="step-number">03</span>
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+            <h3>Envie pelo WhatsApp</h3>
+            <p>A mensagem é montada automaticamente — é só confirmar e enviar.</p>
+          </article>
+          <article class="step-card" data-aos="fade-up" data-aos-delay="400">
+            <span class="step-number">04</span>
+            <i class="fas fa-route" aria-hidden="true"></i>
+            <h3>Receba seu roteiro</h3>
+            <p>Personalizamos sugestões de hospedagem, gastronomia e passeios.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="atracoes">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Pontos turísticos</span>
+          <h2 class="section-title">O que fazer em Porto Alegre</h2>
+          <p class="section-desc">Atrações reais e experiências imperdíveis para montar seu roteiro.</p>
+        </div>
+        <div class="frota-grid">
+          <article class="frota-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="frota-card__image">
+              <img src="https://images.unsplash.com/photo-1585208797982-958e9c4b1c0e?w=600&auto=format&fit=crop&q=80" alt="Pôr do sol sobre o Guaíba em Porto Alegre" loading="lazy" width="600" height="400">
+              <span class="frota-card__tag"><i class="fas fa-water" aria-hidden="true"></i></span>
+            </div>
+            <div class="frota-card__body">
+              <h3>Orla do Guaíba</h3>
+              <p>Ciclovia, mirantes, bares e o famoso pôr do sol — revitalizada pós-2024.</p>
+              <a href="#contato" class="btn btn-primary btn-sm btn-reservar" data-atracao="Orla do Guaíba">Agendar visita</a>
+            </div>
+          </article>
+          <article class="frota-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="frota-card__image">
+              <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&auto=format&fit=crop&q=80" alt="Mercado público histórico com arquitetura colorida" loading="lazy" width="600" height="400">
+              <span class="frota-card__tag"><i class="fas fa-store" aria-hidden="true"></i></span>
+            </div>
+            <div class="frota-card__body">
+              <h3>Mercado Público</h3>
+              <p>Mais de 100 lojas com gastronomia, artesanato e produtos típicos desde 1869.</p>
+              <a href="#contato" class="btn btn-primary btn-sm btn-reservar" data-atracao="Mercado Público">Agendar visita</a>
+            </div>
+          </article>
+          <article class="frota-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="frota-card__image">
+              <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&auto=format&fit=crop&q=80" alt="Parque urbano arborizado com lago" loading="lazy" width="600" height="400">
+              <span class="frota-card__tag"><i class="fas fa-tree" aria-hidden="true"></i></span>
+            </div>
+            <div class="frota-card__body">
+              <h3>Parque Farroupilha (Redenção)</h3>
+              <p>Feira de antiguidades aos domingos, chimarrão e vida ao ar livre.</p>
+              <a href="#contato" class="btn btn-primary btn-sm btn-reservar" data-atracao="Parque Farroupilha (Redenção)">Agendar visita</a>
+            </div>
+          </article>
+          <article class="frota-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="frota-card__image">
+              <img src="https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600&auto=format&fit=crop&q=80" alt="Museu de arquitetura contemporânea" loading="lazy" width="600" height="400">
+              <span class="frota-card__tag"><i class="fas fa-palette" aria-hidden="true"></i></span>
+            </div>
+            <div class="frota-card__body">
+              <h3>Fundação Iberê Camargo</h3>
+              <p>Museu de arte contemporânea projetado por Álvaro Siza às margens do Guaíba.</p>
+              <a href="#contato" class="btn btn-primary btn-sm btn-reservar" data-atracao="Fundação Iberê Camargo">Agendar visita</a>
+            </div>
+          </article>
+          <article class="frota-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="frota-card__image">
+              <img src="https://images.unsplash.com/photo-1474487548417-934cbabf8044?w=600&auto=format&fit=crop&q=80" alt="Cais urbano com edifícios históricos" loading="lazy" width="600" height="400">
+              <span class="frota-card__tag"><i class="fas fa-ship" aria-hidden="true"></i></span>
+            </div>
+            <div class="frota-card__body">
+              <h3>Cais Embarcadero</h3>
+              <p>Antigos armazéns revitalizados com gastronomia, cultura e vista para o lago.</p>
+              <a href="#contato" class="btn btn-primary btn-sm btn-reservar" data-atracao="Cais Embarcadero">Agendar visita</a>
+            </div>
+          </article>
+          <article class="frota-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="frota-card__image">
+              <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&auto=format&fit=crop&q=80" alt="Interior de biblioteca e centro cultural" loading="lazy" width="600" height="400">
+              <span class="frota-card__tag"><i class="fas fa-book" aria-hidden="true"></i></span>
+            </div>
+            <div class="frota-card__body">
+              <h3>Casa de Cultura Mário Quintana</h3>
+              <p>Antigo Hotel Majestic transformado em centro cultural no Centro Histórico.</p>
+              <a href="#contato" class="btn btn-primary btn-sm btn-reservar" data-atracao="Casa de Cultura Mário Quintana">Agendar visita</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="eventos">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Calendário</span>
+          <h2 class="section-title">Eventos e festas tradicionais</h2>
+          <p class="section-desc">Confirme datas oficiais antes de viajar — a programação pode variar.</p>
+        </div>
+        <div class="categorias-grid">
+          <article class="categoria-card" data-aos="fade-up" data-aos-delay="100">
+            
+            <div class="categoria-card__icon"><i class="fas fa-calendar-days" aria-hidden="true"></i></div>
+            <h3>Feira do Livro de POA</h3>
+            <p>Uma das maiores feiras literárias do país no Auditório Araújo Vianna.</p>
+            <span class="categoria-card__price">Nov</span>
+            <a href="#contato" class="btn btn-outline btn-sm">Quero ir</a>
+          </article>
+          <article class="categoria-card categoria-card--featured" data-aos="fade-up" data-aos-delay="200">
+            <span class="categoria-card__badge">Destaque</span>
+            <div class="categoria-card__icon"><i class="fas fa-calendar-days" aria-hidden="true"></i></div>
+            <h3>Acampamento Farroupilha</h3>
+            <p>Semana Farroupilha com CTGs, gastronomia e tradições no Parque da Harmonia.</p>
+            <span class="categoria-card__price">Set</span>
+            <a href="#contato" class="btn btn-outline btn-sm">Quero ir</a>
+          </article>
+          <article class="categoria-card" data-aos="fade-up" data-aos-delay="300">
+            
+            <div class="categoria-card__icon"><i class="fas fa-calendar-days" aria-hidden="true"></i></div>
+            <h3>Porto Alegre em Cena</h3>
+            <p>Festival de artes cênicas com teatro, dança e música.</p>
+            <span class="categoria-card__price">Ano todo</span>
+            <a href="#contato" class="btn btn-outline btn-sm">Quero ir</a>
+          </article>
+          <article class="categoria-card" data-aos="fade-up" data-aos-delay="400">
+            
+            <div class="categoria-card__icon"><i class="fas fa-calendar-days" aria-hidden="true"></i></div>
+            <h3>Agenda Destino POA</h3>
+            <p>Shows, festivais e eventos ao ar livre na orla e parques.</p>
+            <span class="categoria-card__price">Verão</span>
+            <a href="#contato" class="btn btn-outline btn-sm">Quero ir</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-mid" data-aos="fade-up">
+      <div class="container">
+        <div class="cta-mid__inner">
+          <h2>Pronto para conhecer Porto Alegre?</h2>
+          <p>Monte sua mensagem de agendamento em segundos e receba orientação personalizada.</p>
+          <a href="#contato" class="btn btn-primary btn-lg">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+            Agendar minha visita
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt galeria" id="galeria">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Galeria</span>
+          <h2 class="section-title">Imagens que inspiram a viagem</h2>
+        </div>
+        <div class="galeria-grid">
+            <figure class="galeria-item galeria-item--wide" data-aos="zoom-in" data-aos-delay="0">
+              <img src="https://images.unsplash.com/photo-1585208797982-958e9c4b1c0e?w=800&auto=format&fit=crop&q=80" alt="Pôr do sol no Guaíba" loading="lazy" width="800" height="500">
+            </figure>
+            <figure class="galeria-item galeria-item--normal" data-aos="zoom-in" data-aos-delay="100">
+              <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&auto=format&fit=crop&q=80" alt="Mercado público" loading="lazy" width="800" height="500">
+            </figure>
+            <figure class="galeria-item galeria-item--normal" data-aos="zoom-in" data-aos-delay="200">
+              <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&auto=format&fit=crop&q=80" alt="Parque urbano" loading="lazy" width="800" height="500">
+            </figure>
+            <figure class="galeria-item galeria-item--normal" data-aos="zoom-in" data-aos-delay="0">
+              <img src="https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600&auto=format&fit=crop&q=80" alt="Arte contemporânea" loading="lazy" width="800" height="500">
+            </figure>
+            <figure class="galeria-item galeria-item--normal" data-aos="zoom-in" data-aos-delay="100">
+              <img src="https://images.unsplash.com/photo-1474487548417-934cbabf8044?w=600&auto=format&fit=crop&q=80" alt="Cais e arquitetura" loading="lazy" width="800" height="500">
+            </figure>
+            <figure class="galeria-item galeria-item--wide" data-aos="zoom-in" data-aos-delay="200">
+              <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&auto=format&fit=crop&q=80" alt="Centro cultural" loading="lazy" width="800" height="500">
+            </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Dúvidas</span>
+          <h2 class="section-title">Perguntas frequentes</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item" data-aos="fade-up" data-aos-delay="0">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-1">
+              Porto Alegre é segura para turistas?
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-answer" id="faq-1" hidden>
+              <p>Como em qualquer capital, use bom senso. Áreas turísticas como Orla, Redenção e Mercado são bem frequentadas.</p>
+            </div>
+          </div>
+          <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-2">
+              Qual o melhor horário para ver o pôr do sol?
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-answer" id="faq-2" hidden>
+              <p>Chegue à Orla do Guaíba cerca de 30 minutos antes do pôr do sol — varia conforme a estação.</p>
+            </div>
+          </div>
+          <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-3">
+              Existe city tour?
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-answer" id="faq-3" hidden>
+              <p>Sim, a Linha Turismo oferece hop-on hop-off pelos principais pontos. Informe interesse no formulário.</p>
+            </div>
+          </div>
+          <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-4">
+              Como agendar um roteiro de 3 dias?
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="faq-answer" id="faq-4" hidden>
+              <p>Preencha datas, número de pessoas e preferências (cultura, gastronomia, natureza).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contato" id="contato">
+      <div class="container">
+        <div class="contato-grid">
+          <div class="contato-info" data-aos="fade-right">
+            <span class="section-tag">Agendamento</span>
+            <h2 class="section-title">Monte sua mensagem no WhatsApp</h2>
+            <p>Preencha o formulário e envie — adaptamos o roteiro conforme sua data e grupo.</p>
+            <ul class="contato-list">
+              <li>
+                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                <div><strong>Destino</strong><p>Porto Alegre — Capital Gaúcha · RS</p></div>
+              </li>
+              <li>
+                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                <div><strong>WhatsApp</strong><p>(51) 99121-3724</p></div>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-form-wrap" data-aos="fade-left">
+            <form id="whatsapp-form" novalidate>
+              <div class="form-group">
+                <label for="nome">Nome completo *</label>
+                <input type="text" id="nome" name="nome" required autocomplete="name">
+                <span class="field-error" role="alert"></span>
+              </div>
+              <div class="form-group">
+                <label for="telefone">Telefone/WhatsApp *</label>
+                <input type="tel" id="telefone" name="telefone" required autocomplete="tel">
+                <span class="field-error" role="alert"></span>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="data-visita">Data prevista da visita *</label>
+                  <input type="date" id="data-visita" name="data-visita" required>
+                  <span class="field-error" role="alert"></span>
+                </div>
+                <div class="form-group">
+                  <label for="pessoas">Número de pessoas</label>
+                  <select id="pessoas" name="pessoas">
+                    <option value="">Selecione...</option>
+                    <option value="1 pessoa">1 pessoa</option>
+                    <option value="2 pessoas">2 pessoas</option>
+                    <option value="3-4 pessoas">3–4 pessoas</option>
+                    <option value="5-8 pessoas">5–8 pessoas</option>
+                    <option value="9+ pessoas">9 ou mais</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="atracao">Atração ou roteiro de interesse</label>
+                <select id="atracao" name="atracao">
+                  <option value="">Roteiro geral / quero sugestões</option>
+                  <option value="Orla do Guaíba">Orla do Guaíba</option>
+                  <option value="Mercado Público">Mercado Público</option>
+                  <option value="Parque Farroupilha (Redenção)">Parque Farroupilha (Redenção)</option>
+                  <option value="Fundação Iberê Camargo">Fundação Iberê Camargo</option>
+                  <option value="Cais Embarcadero">Cais Embarcadero</option>
+                  <option value="Casa de Cultura Mário Quintana">Casa de Cultura Mário Quintana</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="hospedagem">Precisa de indicação de hospedagem?</label>
+                <select id="hospedagem" name="hospedagem">
+                  <option value="Não">Não, já tenho</option>
+                  <option value="Sim — hotel/pousada">Sim — hotel ou pousada</option>
+                  <option value="Sim — camping/rural">Sim — camping ou turismo rural</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="observacoes">Observações</label>
+                <textarea id="observacoes" name="observacoes" rows="3" placeholder="Crianças, acessibilidade, transporte, restrições alimentares..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg btn-block">
+                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                Enviar agendamento pelo WhatsApp
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <i class="fas fa-city" aria-hidden="true"></i>
+            <span>Destino <strong>POA</strong></span>
+          </a>
+          <p>Turismo e experiências em Porto Alegre — concept demo de landing page de alta conversão.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Links do rodapé">
+          <h3>Explorar</h3>
+          <ul>
+            <li><a href="#atracoes">Atrações</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contato">Agendar</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Porto Alegre Turismo. Concept demo por <a href="https://fariasdigital.com.br/" target="_blank" rel="noopener noreferrer">Farias Digital</a>.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
